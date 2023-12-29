@@ -1,10 +1,11 @@
 JavaScript :
 --------------
 - It is developed by Brendeu Each in the year of 1994.
-- It is used to create Dynamic webpages.
+- It is used to create Dynamic web pages.
 - It is a dynamically typed language.
   e.g
   console.log("Hello World");
+  -------------------
 Js Engine :
 ----------
 V8, SpiderMonkey, Chakra
@@ -17,22 +18,22 @@ Statically typed         |        Dynamically typed
 - The language which is  |- The language which not
 forces the user to define|forces the user to define
 the datatype before      |the datatype is called
-initilization of a       |and not complusory
-Variable is called       |called as dynamically
+initialization of a      |and not compulsory
+The variable is called   |called as dynamically
 statically typed.        | typed language.
 - ex. c, c++, Java       |- ex. Python, JavaScript
 Varibale And DataType:
 ----------------------
 Variable : 
-- It is a container which is used to store single value.
+- It is a container that is used to store a single value.
 - It is a temporary memory location.
 - var
 - let       Keywords <VariableName> ; (Creation of variable)
-- const     <variableName> = 10;  (Initilization)
+- const     <variableName> = 10;  (Initialization)
 
 - let and const are introduced in ES6 (2015).
 
-- When create a variable without initilization then Js engine assigns a default value i.e. undefined
+- When creating a variable without initialization then Js engine assigns a default value i.e. undefined
 
 DataTypes:
 -----------
