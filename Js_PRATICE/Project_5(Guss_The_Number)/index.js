@@ -1,5 +1,21 @@
-let num = Math.floor(Math.random()*100)+1;
+let num; 
+function easy(){
+    num = Math.floor(Math.random()*10)+1;
+    gameSt();
+}
+
+function medium(){
+    num = Math.floor(Math.random()*100)+1;
+    gameSt();
+}
+
+function hard(){
+    num = Math.floor(Math.random()*100)+1;
+    gameSt();
+}
+
 const res = document.getElementById("ans");
+
 let nos_guess = 0;
 function gameSt(){
     let number = parseInt(prompt("Enter a number"));
@@ -15,6 +31,6 @@ res.innerText="Bingo"+" Points = "+ i;
 }else if(num<number){
     res.innerText="Bingo is greater";
 }else{
-    res.innerText="Dingo";
+    res.innerText="Dingo"+" Points = "+ 0;
 }
 }
