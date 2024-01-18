@@ -20,7 +20,7 @@ let nos_guess = 0;
 function gameSt(){
     let number = parseInt(prompt("Enter a number"));
     nos_guess++;
-    start(number);
+    start(number);   
 }
 function start(number){
 if(num === number){
