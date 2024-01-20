@@ -9,7 +9,6 @@ let gunImg = 'img/gun.png';
 let choiceImg;
 
 const res = document.getElementById("result");
-//const img = document.getElementById("img");
 
 function snake(){
     choice = document.getElementById("snake").value;
