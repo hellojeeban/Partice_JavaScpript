@@ -77,5 +77,5 @@ function start(){
         create(img, choiceImg);
         res.innerHTML = `You Won because my Choice is ${randomElement}`;
     }
-    setInterval('autoRefresh()', 1200);
+    setInterval('autoRefresh()', 1500);
 }
